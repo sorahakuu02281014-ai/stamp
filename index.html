@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>デジタルスタンプラリー</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>STAMP RALLY</h1>
+  <p class="subtitle">QRコードを読み取ってスタンプを集めよう！</p>
+
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <h2>スタンプGET!</h2>
+      <p id="stampText"></p>
+    </div>
+  </div>
+
+  <div class="stamp-grid" id="stampGrid"></div>
+
+  <div class="progress-area">
+    <p id="progressText"></p>
+  </div>
+
+  <button id="resetBtn">リセット</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
